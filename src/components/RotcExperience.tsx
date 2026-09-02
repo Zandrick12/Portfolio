@@ -19,7 +19,7 @@ export function RotcExperience() {
             ROTC Leadership & Unit Experience
           </h2>
           <p className="text-slate-600 text-sm max-w-xl">
-            Cadet Officer leadership at ESSU ROTC Maragap Unit, connecting IT software systems with organizational duty, military instruction, and community service.
+            Cadet Officer leadership at ESSUC ROTC Maragap Unit, connecting IT software systems with organizational duty, military instruction, and community service.
           </p>
         </div>
 

@@ -101,7 +101,7 @@ export function ResumeModal({ isOpen, onClose }: ResumeModalProps) {
                   <ShieldCheck className="w-4 h-4 text-blue-600" />
                   Bn S7 Designation & Cadet Officer
                 </h3>
-                <p className="text-xs text-blue-800 font-mono">ESSU ROTC Maragap Unit</p>
+                <p className="text-xs text-blue-800 font-mono">ESSUC ROTC Maragap Unit</p>
                 <p className="text-xs text-slate-700 pt-1">Managed cadet officer coordination, Saturday instruction (Signal Comm, Map Reading), and ROTC QR Attendance platform development.</p>
               </div>
               <span className="font-mono text-xs font-bold text-blue-600">2024 – Present</span>

@@ -79,13 +79,13 @@ export function Hero() {
 
             {/* Subheadline */}
             <p className="text-base sm:text-lg text-slate-600 max-w-2xl leading-relaxed font-normal">
-              I&apos;m <strong className="text-slate-900 font-bold">{portfolioConfig.person.name}</strong>, a BSIT student at Eastern Samar State University (ESSU). I build software solutions like the <strong className="text-slate-900">ROTC QR Attendance System</strong>, explore Python FastAPI backends, and analyze GIS spatial data.
+              I'm <strong className="text-slate-900 font-bold">{portfolioConfig.person.name}</strong>, a BSIT student at Eastern Samar State University Can-Avid (ESSUC). I enjoy building software, solving technical problems, and learning more about <strong className="text-slate-900">cybersecurity, IT support, and networking</strong> as I grow my skills in the IT field.
             </p>
 
             {/* Micro Tags */}
             <div className="flex flex-wrap gap-2 pt-1 font-mono text-xs text-slate-700">
               <span className="flex items-center gap-1 bg-white px-3 py-1.5 rounded-lg border border-slate-200 shadow-sm">
-                <GraduationCap className="w-3.5 h-3.5 text-slate-900" /> ESSU BSIT Student
+                <GraduationCap className="w-3.5 h-3.5 text-slate-900" /> ESSUC BSIT Student
               </span>
               <span className="flex items-center gap-1 bg-white px-3 py-1.5 rounded-lg border border-slate-200 shadow-sm">
                 <Code2 className="w-3.5 h-3.5 text-slate-900" /> React & FastAPI

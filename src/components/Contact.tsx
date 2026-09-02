@@ -45,7 +45,7 @@ export function Contact() {
             </h2>
 
             <p className="text-slate-600 text-sm sm:text-base leading-relaxed">
-              I am open for software engineering internships, ROTC IT projects, GIS spatial studies, and technical collaboration. Feel free to reach out directly via email or connect on GitHub.
+              I am open for software engineering internships, ROTC IT projects, Networking, Cybersecurity and technical collaboration. Feel free to reach out directly via email or connect on GitHub.
             </p>
 
             {/* Email Copy Box */}

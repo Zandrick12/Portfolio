@@ -64,11 +64,11 @@ export function Navbar({ onOpenResume }: NavbarProps) {
             </div>
             <div className="flex flex-col justify-center">
               <span className="font-mono text-sm sm:text-base font-bold tracking-tight text-slate-900 flex items-center gap-2">
-                ZANDRICK QUILOÑA
+                ZANDRICK M QUILOÑA
                 <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse" />
               </span>
               <span className="font-mono text-[10px] sm:text-[11px] text-slate-500 tracking-wider font-semibold">
-                ESSU BSIT • ROTC Bn S7
+                ESSUC BSIT • ROTC Bn S7
               </span>
             </div>
           </a>

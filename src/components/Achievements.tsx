@@ -19,7 +19,7 @@ export function Achievements() {
             Achievements & Leadership
           </h2>
           <p className="text-slate-600 text-sm max-w-xl">
-            Key milestones, ROTC Bn S7 designations, GIS spatial studies, and project honors at ESSUC.
+            Key milestones, ROTC Bn S7 designations, IT Fundamentals, Cybersecurity, Networking, GIS spatial studies, and project honors at ESSUC.
           </p>
         </div>
 
