@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-inter: 'Inter', system-ui, -apple-system, sans-serif;
+    --font-jetbrains: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    background-color: #f8fafc;
+    color: #0f172a;
+    font-family: var(--font-inter);
+    overflow-x: hidden;
+    selection-background-color: rgba(37, 99, 235, 0.15);
+    selection-color: #0f172a;
+  }
+}
+
+/* Custom Light Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2563eb;
+}
+
+/* Light Mode Glassmorphism Utility Panels */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(226, 232, 240, 0.9);
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.04), 0 4px 6px -2px rgba(0, 0, 0, 0.02);
+}
+
+.glass-panel-hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.glass-panel-hover:hover {
+  background: #ffffff;
+  border-color: rgba(37, 99, 235, 0.3);
+  box-shadow: 0 20px 40px -15px rgba(37, 99, 235, 0.12);
+  transform: translateY(-2px);
+}
+
+.glass-pill {
+  background: rgba(248, 250, 252, 0.8);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(226, 232, 240, 0.8);
+}
+
+/* Light Tech Grid Background */
+.bg-tech-grid-light {
+  background-image: 
+    radial-gradient(ellipse at 50% -10%, rgba(37, 99, 235, 0.06), transparent 60%),
+    radial-gradient(ellipse at 90% 80%, rgba(124, 58, 237, 0.04), transparent 50%),
+    linear-gradient(to right, rgba(203, 213, 225, 0.2) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(203, 213, 225, 0.2) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 32px 32px, 32px 32px;
+}
+
+/* Split-to-Together Hero Animations */
+@keyframes splitLeftToCenter {
+  0% {
+    opacity: 0;
+    transform: translateX(-60px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes splitRightToCenter {
+  0% {
+    opacity: 0;
+    transform: translateX(60px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-split-left {
+  animation: splitLeftToCenter 0.9s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-split-right {
+  animation: splitRightToCenter 0.9s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
