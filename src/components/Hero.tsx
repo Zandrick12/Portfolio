@@ -78,9 +78,9 @@ export function Hero() {
             </h1>
 
             {/* Subheadline */}
-            <p className="text-base sm:text-lg text-slate-600 max-w-2xl leading-relaxed font-normal">
-              I'm <strong className="text-slate-900 font-bold">{portfolioConfig.person.name}</strong>, a BSIT student at Eastern Samar State University Can-Avid (ESSUC). I enjoy building software, solving technical problems, and learning more about <strong className="text-slate-900">cybersecurity, IT support, and networking</strong> as I grow my skills in the IT field.
-            </p>
+           <p className="text-base sm:text-lg text-slate-600 max-w-2xl leading-relaxed font-normal">
+  I&apos;m <strong className="text-slate-900 font-bold">{portfolioConfig.person.name}</strong>, a BSIT student at Eastern Samar State University Can-Avid (ESSUC), working toward becoming an IT professional. I enjoy building software, solving technical problems, and continuously learning about <strong className="text-slate-900">cybersecurity, IT support, networking, and modern technology</strong>.
+</p>
 
             {/* Micro Tags */}
             <div className="flex flex-wrap gap-2 pt-1 font-mono text-xs text-slate-700">
